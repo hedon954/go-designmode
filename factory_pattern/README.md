@@ -347,3 +347,4 @@ func main() {
 ## 参考
 
 - [工厂模式有三个Level，你能用Go写到第几层？](https://mp.weixin.qq.com/s?__biz=MzUzNTY5MzU2MA==&mid=2247495992&idx=1&sn=591faf1acfbd5f5aa7f0dbc95506f85c&chksm=fa8320afcdf4a9b965a768e34dff675e754de7e0c9ad95ae3134be1fa4b0990c93c6e8b3162c&scene=178&cur_album_id=2531498848431669249#rd)
+- [三大工厂模式的代码实现及总结](https://blog.csdn.net/weixin_35985385/article/details/81430545)
