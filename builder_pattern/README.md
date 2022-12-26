@@ -24,3 +24,8 @@
 
 ## 4. 对比 Option 模式
 
+- [options](../options_pattern/README.md)
+
+## 参考
+
+- [Go开源库、大项目的公共包，是这么用建造者模式的](https://mp.weixin.qq.com/s?__biz=MzUzNTY5MzU2MA==&mid=2247496507&idx=1&sn=29617647f7e7c54c667abb11605c38ce&chksm=fa8322accdf4abbaa3222828ceb6f0566db26aabab529f1aa8258e8344f191867e6da88ec0d7&scene=178&cur_album_id=2531498848431669249#rd)
