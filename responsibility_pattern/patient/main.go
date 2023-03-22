@@ -11,8 +11,8 @@ func main() {
 	// set the chains
 	start.SetNext(&Reception{}).
 		SetNext(&DockerCheck{}).
-		SetNext(&Medicine{}).
-		SetNext(&Payment{})
+		SetNext(&Payment{}).
+		SetNext(&Medicine{})
 
 	// execute
 	if err := start.Execute(p); err != nil {

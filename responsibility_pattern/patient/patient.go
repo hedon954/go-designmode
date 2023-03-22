@@ -48,19 +48,6 @@ func (d *DockerCheck) Do(p *patient) error {
 	return nil
 }
 
-type Medicine struct {
-	Next
-}
-
-func (m Medicine) Do(p *patient) error {
-	if p.MedicineDone {
-		return nil
-	}
-	fmt.Println("medicine...")
-	p.MedicineDone = true
-	return nil
-}
-
 type Payment struct {
 	Next
 }
@@ -71,5 +58,18 @@ func (p *Payment) Do(p2 *patient) error {
 	}
 	fmt.Println("payment...")
 	p2.PaymentDone = true
+	return nil
+}
+
+type Medicine struct {
+	Next
+}
+
+func (m Medicine) Do(p *patient) error {
+	if p.MedicineDone {
+		return nil
+	}
+	fmt.Println("medicine...")
+	p.MedicineDone = true
 	return nil
 }
