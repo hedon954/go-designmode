@@ -6,40 +6,42 @@ Some examples of design modes implemented with Go.
 ## 创建型模式
 
 - [工厂方法模式](./factory_pattern)
-- [抽象工厂模式]
-- [单例模式]
-- [建造者模式]
-- [原型模式]
+- [抽象工厂模式](./factory_pattern)
+- [单例模式](./singleton_pattern)
+- [建造者模式](./builder_pattern)
+- [原型模式](./singleton_pattern)
 
 
 
 ## 结构性模式
 
-- [适配器模式]
-- [桥接模式]
-- [组合模式]
-- [装饰者模式]
-- [外观模式]
-- [享元模式]
-- [代理模式]
+- [适配器模式](./adapter_pattern)
+- [桥接模式](./bridge_pattern)
+- [组合模式](./composite_pattern)
+- [装饰者模式](./decorator_pattern)
+- [外观模式](./facade_pattern)
+- [享元模式](./flyweight_pattern)
+- [代理模式](./proxy_pattern)
 
 
 
 ## 行为型模式
 
-- [策略模式]
-- [模板方法模式]
-- [观察者模式]
-- [迭代器模式]
-- [职责链模式]
-- [命令模式]
-- [备忘录模式]
-- [状态模式]
-- [访问者模式]
-- [中介者模式]
-- [解释器模式]
+- [策略模式](./strategy_pattern)
+- [模板方法模式](./template_pattern)
+- [观察者模式](./observer_pattern)
+- [迭代器模式](./iterator_pattern)
+- [职责链模式](./responsibility_pattern)
+- [命令模式](./command_pattern)
+- [备忘录模式](./memento_pattern)
+- [状态模式](./state_pattern)
+- [访问者模式](./visitor_pattern)
+- [中介者模式](./mediator_pattern)
+- [解释器模式](./interpreter_pattern)
 
-## 
+## 其他
+
+- [Option 编程模式](./options_pattern)
 
 ## 概括
 
