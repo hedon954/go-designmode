@@ -9,7 +9,7 @@ Some examples of design modes implemented with Go.
 - [抽象工厂模式](./factory_pattern)
 - [单例模式](./singleton_pattern)
 - [建造者模式](./builder_pattern)
-- [原型模式](./singleton_pattern)
+- [原型模式](./prototype-pattern)
 
 
 
